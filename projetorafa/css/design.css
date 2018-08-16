@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: 100%;
+    background-image: url(https://st2.depositphotos.com/4446107/10448/i/950/depositphotos_104481450-stock-photo-blur-in-warm-colors.jpg)
+}
+nav{
+    height: 70px;
+    background-color: black;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    font-size: 15px;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    bottom: 40px;
+    position: relative;
+}
+nav ul li{
+    padding-left: 15px;
+    margin-right: 20px;
+    list-style-type: none;
+    margin-top: 0;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 200px;
+    z-index: 1;
+    margin-top: 5px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 200px;
+    color:white;
+    
+}
+button{
+    margin-top: 10px;
+    border-radius: 30px ;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button1{
+    background-color: rgb(24, 182, 24);
+    border:none;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+.button2{
+    background-color: transparent;
+    justify-content: center;
+    border: solid white;
+}
